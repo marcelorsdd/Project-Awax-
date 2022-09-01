@@ -521,3 +521,53 @@ header {
 .section-brands a {
     padding-left: 50px;
 }
+
+
+
+.section-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-price--content {
+    background-color: #FFF;
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-price--title {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.section-price--value {
+    font-size: 26px;
+    font-weight: 700;
+}
+.section-price--mouth{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #CCC;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.section-price--details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.section-price--details span {
+    color: #3f3f3f;
+    padding: 10px 0;
+}
+.section-price--divider {
+    height: 1px;
+    width: 10px;
+    background-color: #3f3f3f;
+
+}
